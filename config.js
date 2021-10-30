@@ -129,8 +129,6 @@ config.messages_enable = true
 // Enter your custom messages below
 config.messages_list = [
 	"VG NETWORKS",
-	"Game accurate player vs player action",
-	"UNSC vs Covenant",
 ]
 
 // Random message order?
