@@ -66,12 +66,6 @@ config.background_map_based = false
 // (Place the image files in the backgrounds/images folder)
 config.background_images = [
 	"image1.jpg",
-	"image2.jpg",
-	"image3.jpg",
-	"image4.jpg",
-	"image5.jpg",
-	"image6.jpg",
-	"image7.jpg",
 ]
 
 // (Image-background only)
@@ -99,11 +93,11 @@ config.background_darkening = 30
 
 // Play music during the loading screen?
 // "true" or "false"
-config.music_enable = true
+config.music_enable = false
 
 // Display current music name?
 // "true" or "false"
-config.music_show = true
+config.music_show = false
 
 // Music playlist
 // Add as many youtube ids/urls or audio files you want
@@ -111,22 +105,10 @@ config.music_show = true
 // (Use ogg files for compatibility with default Gmod)
 // (Place the audio files in the music folder)
 config.music_playlist = [
-	{
-		name: "Arise in Valor",
-		file: "music1.ogg",
-	},
-	{
-		name: "More than his share",
-		file: "music2.ogg",
-	},
-	{
-		name: "Covenant Dance",
-		file: "music3.ogg",
-	},
-	{
-		name: "Infiltration",
-		file: "music4.ogg",
-	},
+	//{
+	//	name: "Arise in Valor",
+	//	file: "music1.ogg",
+	//},
 ]
 
 // Random music order?
